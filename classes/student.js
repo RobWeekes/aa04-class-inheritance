@@ -12,10 +12,10 @@ class Student extends Person {
             return `${student1.firstName} ${student1.lastName} has the higher GPA.`
         } else {
             if(student2.GPA > student1.GPA) {
-            return `${student2.firstName} ${student2.lastName} has the higher GPA.`
-        } else {
-            return `Both students have the same GPA`;
-        }
+                return `${student2.firstName} ${student2.lastName} has the higher GPA.`
+            } else {
+                return `Both students have the same GPA`;
+            }
         }
     }
 }

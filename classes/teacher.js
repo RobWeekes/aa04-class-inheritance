@@ -12,7 +12,8 @@ class Teacher extends Person {
         teachers.forEach(teacher => {
             years += teacher.yearsOfExperience;
         });
-
+        // let years = teachers.reduce((acc, teachers.yearsOfExperience) => acc + teachers.yearsOfExperience, 0,);
+        // console.log(years);
         return years;
     }
 }
